@@ -9,7 +9,7 @@ from typing import Union, Tuple
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
-    Return a tuple where the first element is a string and 
+    Return a tuple where the first element is a string and
     the second is the square of a number.
 
     Args:
@@ -17,7 +17,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
         v (Union[int, float]): A value to be squared.
 
     Returns:
-        Tuple[str, float]: A tuple of the string 
+        Tuple[str, float]: A tuple of the string
         and squared value as float.
     """
     return (k, float(v * v))
